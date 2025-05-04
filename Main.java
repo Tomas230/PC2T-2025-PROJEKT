@@ -79,7 +79,7 @@ public class Main {
                 case 10:{
                     spravca.nacitajStudentaZoSuboru("vybrany.txt");
                 }break;
-                 case 8 ->   {
+                 case 11 ->   {
             System.out.print("Zadaj ID studenta na vymazanie: ");
             int idNaVymazanie = sc.nextInt();
             sc.nextLine(); // consume newline
