@@ -21,6 +21,7 @@ public class Main {
             System.out.println("8 Pocty skupin");
             System.out.println("9 Uloz studenta do suboru");
             System.out.println("10 Nacitaj studenta zo suboru");
+            System.out.println("11. Vymaz studenta");
             System.out.println("0 Koniec");
             int v=sc.nextInt();sc.nextLine();
             switch(v){
@@ -78,6 +79,16 @@ public class Main {
                 case 10:{
                     spravca.nacitajStudentaZoSuboru("vybrany.txt");
                 }break;
+                 case 8 ->   {
+            System.out.print("Zadaj ID studenta na vymazanie: ");
+            int idNaVymazanie = sc.nextInt();
+            sc.nextLine(); // consume newline
+            
+            if (spravca.odstranStudenta(idNaVymazanie)) {
+                System.out.println("Student bol uspesne vymazany.");
+            } else {
+                System.out.println("Student s danym ID nebol najdeny.");
+            }               }
                 case 0:{
                     bezi=false;
                     spravca.ulozCeleDoDatabazy();
