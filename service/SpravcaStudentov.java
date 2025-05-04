@@ -112,5 +112,17 @@ public class SpravcaStudentov {
         }catch(Exception e){return false;}
     }
 
+     public boolean odstranStudenta(int id) {
+        Iterator<Student> iterator = studenti.iterator();
+        while (iterator.hasNext()) {
+            Student s = iterator.next();
+            if (s.getId() == id) {
+                iterator.remove();
+                return true;
+            }
+        }
+        return false;
+    }
+
     public List<Student> getVsetci(){ return studenti; }
 }
