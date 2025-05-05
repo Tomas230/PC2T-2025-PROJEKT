@@ -26,7 +26,6 @@ Projekt bol navrhnutý s dôrazom na objektovo-orientované programovanie a nesk
 - ✅ **Zoradenie podľa priemeru** – Od najlepšieho po najhoršieho.
 - ✅ **Vymazanie študenta** – Trvalé odstránenie z evidencie.
 - ✅ **Ukladanie/načítanie zo súboru** – Textový súbor `studenti.txt`.
-- ✅ **Ukladanie/načítanie z databázy** – MariaDB (nepoužíva Maven).
 - 🔄 **Plánované: Grafické rozhranie (GUI)** – Náhrada za konzolové ovládanie.
 
 ---
