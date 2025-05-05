@@ -9,7 +9,7 @@
 
 ## 📄 Abstrakt
 
-Tento projekt je konzolová aplikácia napísaná v Jave, vytvorená za účelom správy študentov v rôznych študijných programoch (napr. Telekom a Kyber). Umožňuje registráciu študentov, pridávanie známok, zobrazovanie informácií, a ukladanie údajov do súboru aj databázy MariaDB.
+Tento projekt je konzolová aplikácia napísaná v Jave, vytvorená za účelom správy študentov v rôznych študijných programoch (napr. Telekom a Kyber). Umožňuje registráciu študentov, pridávanie známok, zobrazovanie informácií, a ukladanie údajov do súboru aj databázy.
 
 Projekt bol navrhnutý s dôrazom na objektovo-orientované programovanie a neskôr rozšírený o databázovú podporu. V budúcnosti plánujeme aj grafické používateľské rozhranie (GUI).
 
